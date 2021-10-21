@@ -1,0 +1,23 @@
+{
+  "name": "b-side-yoga-release",
+  "version": "1.0.0",
+  "description": "website for berlin-based yoga and movement studio b-side-yoga.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TelehorseUMA/b-side-yoga-release.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TelehorseUMA/b-side-yoga-release/issues"
+  },
+  "homepage": "https://github.com/TelehorseUMA/b-side-yoga-release#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  }
+}
