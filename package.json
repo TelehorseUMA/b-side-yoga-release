@@ -4,7 +4,9 @@
   "description": "website for berlin-based yoga and movement studio b-side-yoga.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve:dev": "ELEVENTY_ENV=dev npx @11ty/eleventy --serve",
+    "build": "ELEVENTY_ENV=prod npx @11ty/eleventy"
   },
   "repository": {
     "type": "git",
@@ -18,7 +20,8 @@
   },
   "homepage": "https://github.com/TelehorseUMA/b-side-yoga-release#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^0.12.1"
+    "@11ty/eleventy": "^0.12.1",
+    "prettier": "2.4.1"
   },
   "dependencies": {
     "htm": "^3.1.0",
